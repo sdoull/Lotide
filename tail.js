@@ -1,7 +1,6 @@
 const tail = function(arr) {
-  if (arr.length > 1) {
-    return arr.slice(1);
-  }
+  
+  return arr.slice(1);
 };
   
 
@@ -20,3 +19,8 @@ const words = ["Hi", "Lighthouse", "Labs"];
 tail(words);
 assertEqual(words.length, 3);
 
+const testTailEmptyArray = function() {
+  const originalArray = [];
+  const result = tail(originalArray);
+  assertEqual(result.length, 0);
+};
