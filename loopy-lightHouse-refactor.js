@@ -3,10 +3,10 @@ for (let i = 100; i <= 200; i++) {
   let divisibleByFour = i % 4 === 0;
     
   console.log(
-    divisibleByThree && divisibleByFour 
-      ? "LoopyLighthouse" 
-      : divisibleByThree 
-        ? "Loopy" 
-        : divisibleByFour 
+    divisibleByThree && divisibleByFour
+      ? "LoopyLighthouse"
+      : divisibleByThree
+        ? "Loopy"
+        : divisibleByFour
           ? "Lighthouse" : i);
 }
