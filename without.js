@@ -11,8 +11,8 @@ const without = function(source, itemsToRemove) {
   
 // Function to assert if two arrays are equal
 const assertArraysEqual = function(actual, expected) {
-  const passed = "😍";
-  const failed = "🤬";
+  const passed = "😍 passed";
+  const failed = "🤬 failed";
   if (eqArrays(actual, expected)) {
     console.log(`${passed} Assertion Passed: Arrays are equal.`);
   } else {
